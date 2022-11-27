@@ -1,0 +1,74 @@
+{
+  "adult": false,
+  "backdrop_path": "/y5hbHJbERDFurustaqcVamN84Y0.jpg",
+  "belongs_to_collection": null,
+  "budget": 17000000,
+  "genres": [
+    { "id": 27, "name": "공포" },
+    { "id": 9648, "name": "미스터리" },
+    { "id": 53, "name": "스릴러" }
+  ],
+  "homepage": "",
+  "id": 1933,
+  "imdb_id": "tt0230600",
+  "original_language": "en",
+  "original_title": "The Others",
+  "overview": "2차 대전이 막 끝난 1945년, 영국 해안의 외딴 저택. 전쟁에서 남편을 잃은 독실한 천주교도 그레이스(니콜 키드먼)와 빛에 노출되면 안되는 희귀병을 가진 두 아이가 살고 있다. 어느 날, 예전에 이 저택에서 일한 적이 있다는 세 명의 하인들이 들어오게 된다. 그레이스는 두 아이를 빛으로부터 지키기 위해 커튼은 항상 쳐져 있어야 하고, 문은 항상 잠겨있어야 한다는 '절대 규칙'을 하인들에게 가르친다. 이와 때를 같이 해서 저택에는 기괴한 일들이 끊이지 않는다. 아무도 없는 방에서 발자국 소리가 들리고, 피아노가 갑자기 연주된다. 또한 딸 앤은 이상한 남자아이와 할머니가 이 집에 머물고 있다는 얘기를 반복한다. 신에 대한 믿음이 너무나 강한 그레이스는 그런 딸의 말을 인정하지 않지만 두려움은 점점 그 무게를 더해만 간다. 마침내 그레이스는 그들을 위협하는 공포의 실체와 마주하게 되는데...",
+  "popularity": 29.771,
+  "poster_path": "/9kvhnfgHxBibc2yoLYkZ6WQag6L.jpg",
+  "production_companies": [
+    {
+      "id": 44,
+      "logo_path": null,
+      "name": "Cruise/Wagner Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 104,
+      "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
+      "name": "Canal+",
+      "origin_country": "FR"
+    },
+    {
+      "id": 692,
+      "logo_path": null,
+      "name": "Sogecine",
+      "origin_country": "ES"
+    },
+    {
+      "id": 694,
+      "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+      "name": "StudioCanal",
+      "origin_country": "FR"
+    },
+    {
+      "id": 778,
+      "logo_path": null,
+      "name": "Las Producciones del Escorpion",
+      "origin_country": "ES"
+    },
+    {
+      "id": 7405,
+      "logo_path": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+      "name": "Dimension Films",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    { "iso_3166_1": "FR", "name": "France" },
+    { "iso_3166_1": "ES", "name": "Spain" },
+    { "iso_3166_1": "US", "name": "United States of America" }
+  ],
+  "release_date": "2001-08-02",
+  "revenue": 209947037,
+  "runtime": 101,
+  "spoken_languages": [
+    { "english_name": "English", "iso_639_1": "en", "name": "English" }
+  ],
+  "status": "Released",
+  "tagline": "",
+  "title": "디 아더스",
+  "video": false,
+  "vote_average": 7.618,
+  "vote_count": 5457
+}
