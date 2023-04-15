@@ -1,8 +1,12 @@
+# AMS(Algorithm Movie Site)
+
 ## 0. 개발 환경
 
-- Django 3.2.13
+- BE:
+![Django](https://img.shields.io/badge/django_3.2.13-%2320232a.svg?style=for-the-badge&logo=django&logoColor=%#092E20)
 
-- vue@ 2.7.14
+- FE:
+![Vue](https://img.shields.io/badge/Vue2_2.7.14-%2320232a.svg?style=for-the-badge&logo=vuedotjs&logoColor=%#4FC08D)
 
 ## 1. 팀원 정보 및 업무 분담 내역
 
@@ -40,7 +44,7 @@ TMDB api 를 통해 /movie/popular 에서 data 약 1만개를 json 파일로 저
 
 ## 3. 데이터베이스 모델링 (ERD)
 
-![](readme_assets/2022-11-25-01-53-34-ERD.png)
+![ERD](readme_assets/2022-11-25-01-53-34-ERD.png)
 
 ## -
 
@@ -66,16 +70,49 @@ TMDB api 를 통해 /movie/popular 에서 data 약 1만개를 json 파일로 저
 
     회원 가입시 10 문제를 통해 유저 등급이 정해집니다. 정해진 등급과 같은 등급을 가진 다른 유저가 좋아요한 영화들을 목록으로 생성합니다. 좋아요 1개당 20점 조회수 1회당 1점을 point로 하여 가장 많은 포인트를 가진 영화 10개를 추천해줍니다. 
 
--
+<br>
 
-## 5. 서비스 대표 기능에 대한 설명
 
-저희 팀에 대표적인 기능은 회원 가입시 영화 선호 장르를 선택해야 되고, 영화 Quiz 10문제를 통해 회원 등급이 정해지는 것이 특징입니다.
+## 5. 서비스 전체 기능에 대한 설명
 
-그 등급을 토대로 같은 등급의 유저들의 '좋아요'와 '조회수' point를 통해 영화를 추천해주는 기능입니다.
-두번째로는 팔로우 기능을 통해 유저가 팔로우하는 다른 유저들의 좋아요 목록을 볼 수 있고, 유저가 팔로우하는 모든 유저들이 가장 좋아하는 영화를 추천해주는 기능입니다.
+### 퀴즈
+- 퀴즈를 통해 사용자의 영화에 대한 이해도를 파악하고 등급을 부여한다.
+- 같은 등급의 유저들의 선호하는 영화를 추천해 준다.
+<img src="https://user-images.githubusercontent.com/108445259/232202897-6ee3dd63-1d7c-46bd-9167-4f3e7684a895.gif" width="500" height="400">
 
--
+### 회원 가입
+- 닉네임 중복확인 기능
+- 비밀번호 일치 여부 확인
+<img src="https://user-images.githubusercontent.com/108445259/232202953-a0d73602-7bb1-4750-ae5a-7c1a8d0405f6.gif" width="500" height="400" style="" >
+
+### 메인 페이지
+- 모든 유저의 Top20 영화 순위
+- 사용자가 선호하는 장르별 랜덤 10개의 영화를 추천한다.
+<img src="https://user-images.githubusercontent.com/108445259/232202738-6ea43a60-401b-4523-9666-99c2d45d4843.gif" width="500" height="400" style="" >
+
+### 상세 페이지
+- 영화의 상세정보, 장르, 평점을 확인할 수 있다.
+- 영화에 대한 리뷰를 작성 및 삭제 가능
+<img src="https://user-images.githubusercontent.com/108445259/232201869-9304f4b9-9e10-44fa-a5ce-78dff2b71839.gif" width="500" height="400" style="" >
+
+### 마이페이지
+- 내가 좋아요 누른 영화 목록 제공
+- 나의 팔로우한 사람을 확인할 수 있다.
+- 내가 선택한 선호 장르를 보여준다.
+<img src="https://user-images.githubusercontent.com/108445259/232202326-bef623a5-4ab6-4b0b-be49-0b906dc28528.gif" width="500" height="400" style="" >
+
+### 유저 목록 페이지
+- 사이트 내의 모든 이용자들을 나타낸다.
+- 팔로우가 많은 순으로 정렬해서 제공
+- 클릭 시에 상대방의 상세페이지로 이동
+<img src="https://user-images.githubusercontent.com/108445259/232201746-81e177da-fe1e-4dda-803d-7791c789e90a.gif" width="500" height="400" style="" >
+
+### 검색 기능
+- 타이핑 시 바로 영화 검색
+- 이름이 포함되거나 비슷한 영화들 추천
+<img src="https://user-images.githubusercontent.com/108445259/232202415-34489813-4210-432d-8d51-4e923f9b91c2.gif" width="500" height="400" style="" >
+
+
 
 ## 6. 배포 서버 URL
 

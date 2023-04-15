@@ -60,7 +60,9 @@ import axios from 'axios'
 import LoginForm from '@/components/LoginForm'
 import SearchMovieList from './components/SearchMovieList.vue'
 
-const API_URL='http://43.200.88.145:8000'
+// const API_URL='http://43.200.88.145:8000'
+const API_URL = 'http://127.0.0.1:8000'
+// const API_URL = 'http://localhost:8000'
 export default {
   data(){
     return{

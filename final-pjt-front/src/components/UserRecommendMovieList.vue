@@ -18,7 +18,8 @@
 import axios from 'axios'
 import MovieCards from '@/components/MovieCards'
 
-const BACK_URL='http://43.200.88.145:8000'
+const BACK_URL = 'http://127.0.0.1:8000'
+// const BACK_URL='http://43.200.88.145:8000'
 export default {
   data() {
     return {

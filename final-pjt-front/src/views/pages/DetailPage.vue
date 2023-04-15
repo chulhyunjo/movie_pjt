@@ -62,7 +62,8 @@ import axios from "axios";
 import CommentForm from "@/components/CommentForm"
 import CommentList from "@/components/CommentList"
 
-const API_URL='http://43.200.88.145:8000'
+const API_URL = 'http://127.0.0.1:8000'
+// const API_URL='http://43.200.88.145:8000'
 export default {
   data() {
     return{
@@ -90,7 +91,7 @@ export default {
   },
   methods: {
     like_movie() {
-      const API_URL='http://43.200.88.145:8000'
+      const API_URL='http://127.0.0.1:8000'
       axios({
         method: 'post',
         url: `${API_URL}/accounts/like/${this.username}/${this.movieId}/`,
@@ -103,7 +104,7 @@ export default {
         })
     },
     getCommentList() {
-      const API_URL='http://43.200.88.145:8000'
+      const API_URL='http://127.0.0.1:8000'
       axios({
         method: 'get',
         url: `${API_URL}/api/v1/commentlist/`,
@@ -140,7 +141,7 @@ export default {
     this.likes = this.userInform.like_movies.includes(this.movieId*1)
   },
   beforeRouteEnter(to,from,next){
-    const API_URL='http://43.200.88.145:8000'
+    const API_URL='http://127.0.0.1:8000'
     axios({
           method: 'get',
           url: `${API_URL}/api/v1/getMovieDetail/${to.params.movie_id}/`,
@@ -161,7 +162,7 @@ export default {
       })
   },
   beforeRouteUpdate(to,from,next){
-    const API_URL='http://43.200.88.145:8000'
+    const API_URL='http://127.0.0.1:8000'
     axios({
           method: 'get',
           url: `${API_URL}/api/v1/getMovieDetail/${to.params.movie_id}/`,

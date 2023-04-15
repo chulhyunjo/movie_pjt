@@ -34,7 +34,8 @@ import ProfileLikeGenreItem from '@/components/ProfileLikeGenreItem'
 import UserLikeMovieList from '@/components/UserLikeMovieList'
 import axios from 'axios'
 
-const API_URL='http://43.200.88.145:8000'
+// const API_URL='http://43.200.88.145:8000'
+const API_URL = 'http://127.0.0.1:8000'
 export default {
   data() {
     return {

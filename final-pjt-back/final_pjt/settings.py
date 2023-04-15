@@ -141,6 +141,7 @@ SITE_ID = 1
 
 CORS_ALLOWED_ORIGINS = [
     'http://43.200.88.145:8080',
+    'http://localhost:8080'
 ]
 
 REST_FRAMEWORK = {

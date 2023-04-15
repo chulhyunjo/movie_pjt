@@ -35,7 +35,8 @@ export default {
   props: ["comment", "commentList"],
   methods: {
     deleteComment() {
-      const API_URL = "http://43.200.88.145:8000";
+      // const API_URL = "http://43.200.88.145:8000";
+      const API_URL = 'http://127.0.0.1:8000'
       axios({
         method: "delete",
         url: `${API_URL}/api/v1/comment/${this.comment.id}`,
